@@ -95,8 +95,8 @@ var ReferenceRules = React.createClass({
                         values.push({
                             rawSelector: selector,
                             rawValue: value,
-                            selector: <b>{recipe.prefix}{ hasConfig ? suffix : <i>{suffix}</i>} </b>,
-                            value: hasConfig ? value : <i className="C-07f">{value}</i>
+                            selector: <b>{recipe.prefix}{ hasConfig ? suffix : <i className="Fs-i">{suffix}</i>} </b>,
+                            value: hasConfig ? value : <i className="Fs-i C-07f">{value}</i>
                         });
                         if (custom[i].breakPoints) {
                             var bp = custom[i].breakPoints;
