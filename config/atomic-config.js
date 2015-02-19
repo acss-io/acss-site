@@ -442,11 +442,11 @@ module.exports = {
     },
 
 //    // pattern
-//    'font-style': {
-//        'n': true,
-//        'i': true,
-//        'o': true
-//    },
+   'font-style': {
+       // 'n': true,
+       // 'o': true,
+      'i': true
+   },
 //
 //    // pattern
 //    'font-variant': {
