@@ -8,6 +8,13 @@ module.exports = [
                 navParams: {
                     key: 'quick-start'
                 }
+            },
+            {
+                label: 'FAQ',
+                routeName: 'FAQ',
+                navParams: {
+                    key: 'frequently-asked-questions'
+                }
             }
         ]
     },
@@ -41,6 +48,14 @@ module.exports = [
                 navParams: {
                     type: 'tutorials',
                     key: 'grid'
+                }
+            },
+            {
+                label: 'RWD',
+                routeName: 'docs',
+                navParams: {
+                    type: 'tutorials',
+                    key: 'responsive-web-design'
                 }
             }
         ]
